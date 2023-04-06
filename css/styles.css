@@ -6,17 +6,17 @@
 }
 
 :root {
-  --cloud: #4d5ae5;
-  --blue: #404bbf;
-  --first-gray: #2e2f42;
-  --second-gray: #434455;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
   --white: #ffffff;
-  --second-white: #f4f4fd;
-  --third-white: #e7e9fc;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--second-gray);
+  color: var(--slate);
   background-color: var(--white);
 }
 
@@ -36,13 +36,13 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color: var(--iris);
 }
 .logo-link-span {
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 .logo-portfolio-span {
-  color: var(--second-white);
+  color: var(--cloud);
 }
 
 /* Menu */
@@ -53,14 +53,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 
 .menu-link:hover {
-  color: var(--blue);
+  color: var(--ocean);
 }
 .menu-link:focus {
-  color: var(--blue);
+  color: var(--ocean);
 }
 .contact-item {
   font-family: inherit;
@@ -71,15 +71,15 @@ body {
   color: inherit;
 }
 .contact-item:hover {
-  color: var(--blue);
+  color: var(--ocean);
 }
 .contact-item:focus {
-  color: var(--blue);
+  color: var(--ocean);
 }
 
 /* HERO section 1 */
 .hero {
-  background: var(--first-gray);
+  background: var(--navy-blue);
 }
 .hero-title {
   font-family: inherit;
@@ -93,7 +93,7 @@ body {
 
 /* button */
 .hero-button {
-  background: var(--cloud);
+  background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -109,12 +109,12 @@ body {
   cursor: pointer;
 }
 .hero-button:hover {
-  color: var(--third-white);
-  background-color: var(--blue);
+  color: var(--cornflower);
+  background-color: var(--ocean);
 }
 .hero-button:focus {
-  color: var(--third-white);
-  background-color: var(--blue);
+  color: var(--cornflower);
+  background-color: var(--ocean);
 }
 /* section 2 */
 
@@ -124,7 +124,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 .second-section-text {
   font-family: inherit;
@@ -145,12 +145,12 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 
 /* section 4 */
 .fourth-section {
-  background-color: var(--second-white);
+  background-color: var(--cloud);
 }
 .background {
   background-color: var(--white);
@@ -163,7 +163,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 .fourth-section-name {
   font-family: inherit;
@@ -172,7 +172,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 .fourth-section-profession {
   font-family: inherit;
@@ -195,16 +195,16 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-white);
+  color: var(--cloud);
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 .logo-link-span-footer {
-  color: var(--second-white);
+  color: var(--cloud);
 }
 .footer {
-  background: var(--first-gray);
+  background: var(--navy-blue);
 }
 .footer-text {
   font-family: inherit;
@@ -212,7 +212,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   letter-spacing: 0.02em;
-  color: var(--second-white);
+  color: var(--cloud);
 }
 
 /* PORTFOLIO PAGE */
@@ -220,8 +220,8 @@ body {
 /* filters */
 
 .filters-button {
-  background: var(--second-white);
-  border: 1px solid var(--third-white);
+  background: var(--cloud);
+  border: 1px solid var(--cornflower);
   border-radius: 4px;
   flex: none;
   order: 1;
@@ -236,7 +236,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--cloud);
+  color: var(--iris);
 }
 .filters-button {
   cursor: pointer;
@@ -244,11 +244,11 @@ body {
 
 .filters-button:hover {
   color: var(--white);
-  background-color: var(--blue);
+  background-color: var(--ocean);
 }
 .filters-button:focus {
   color: var(--white);
-  background-color: var(--blue);
+  background-color: var(--ocean);
 }
 
 /* Menu */
@@ -258,7 +258,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--first-gray);
+  color: var(--navy-blue);
 }
 .menu-text {
   font-family: inherit;
@@ -266,15 +266,15 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--second-gray);
+  color: var(--slate);
 }
 
 /* Module 3 */
-h1. h2. h3. h4. p. {
+h1.h2.h3.h4.p {
   margin-top: 0;
   margin-bottom: 0;
 }
-ul. ol. {
+ul.ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
