@@ -268,3 +268,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-gray);
 }
+
+/* Module 3 */
+h1. h2. h3. h4. p. {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul. ol. {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
