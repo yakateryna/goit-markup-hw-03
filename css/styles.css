@@ -56,6 +56,14 @@ body {
   color: var(--navy-blue);
 }
 
+/* FLEX */
+
+.menu {
+  display: flex;
+}
+.contact-nav {
+  display: flex;
+}
 .menu-link:hover {
   color: var(--ocean);
 }
