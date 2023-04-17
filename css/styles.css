@@ -60,6 +60,9 @@ body {
 /* Logo paddings */
 .page-header {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-left: 156px;
 }
 .page-nav {
   display: flex;
