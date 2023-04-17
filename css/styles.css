@@ -57,22 +57,29 @@ body {
 }
 
 /* FLEX */
-/* Logo paddings */
+.logo-link {
+  margin-left: 156px;
+}
 .page-header {
   display: flex;
   margin-top: 0;
-  margin-bottom: 24px;
-  margin-left: 156px;
+  margin-bottom: 0;
 }
 .page-nav {
   display: flex;
+  margin-right: auto;
 }
 .menu {
   display: flex;
 }
 .contact-nav {
   display: flex;
-  padding: auto;
+}
+.contact-item {
+  margin-right: 40px;
+}
+.adress {
+  align-items: center;
 }
 /* Задає відступ між ними */
 .menu-link {
