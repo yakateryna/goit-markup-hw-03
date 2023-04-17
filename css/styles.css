@@ -62,8 +62,6 @@ body {
 }
 .page-header {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .page-nav {
   display: flex;
@@ -71,20 +69,22 @@ body {
 }
 .menu {
   display: flex;
+  gap: 40px;
 }
 .contact-nav {
   display: flex;
+  gap: 40px;
 }
-.contact-item {
-  margin-right: 40px;
-}
+/* .contact-item {
+  gap: 40px;
+} */
 .adress {
   align-items: center;
 }
 /* Задає відступ між ними */
 .menu-link {
   display: flex;
-  padding-right: 40px;
+  gap: 40px;
   /* margin-bottom: 24px; */
 }
 .menu-item {
