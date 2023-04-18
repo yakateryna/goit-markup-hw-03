@@ -86,7 +86,6 @@ body {
 .menu-link {
   display: flex;
   gap: 40px;
-  /* margin-bottom: 24px; */
 }
 .menu-item {
   display: flex;
@@ -120,7 +119,7 @@ body {
 }
 .hero-wraper {
   background: var(--navy-blue);
-  height: 600px;
+  padding: 188px 472px 292px 472px;
 }
 .hero-title {
   font-family: inherit;
