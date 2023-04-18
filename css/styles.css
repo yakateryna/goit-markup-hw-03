@@ -24,6 +24,7 @@ body {
 }
 .adress {
   font-style: normal;
+  align-items: center;
 }
 
 /* HEADER */
@@ -92,9 +93,6 @@ body {
 .contact-nav {
   display: flex;
   gap: 40px;
-}
-.adress {
-  align-items: center;
 }
 .contact-item {
   font-family: inherit;
