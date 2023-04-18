@@ -38,6 +38,7 @@ body {
   text-transform: uppercase;
   color: var(--iris);
 }
+
 .logo-link-span {
   color: var(--navy-blue);
 }
@@ -62,6 +63,8 @@ body {
 }
 .page-header {
   display: flex;
+  height: 72px;
+  align-items: center;
 }
 .page-nav {
   display: flex;
@@ -75,13 +78,11 @@ body {
   display: flex;
   gap: 40px;
 }
-/* .contact-item {
-  gap: 40px;
-} */
+
 .adress {
   align-items: center;
 }
-/* Задає відступ між ними */
+
 .menu-link {
   display: flex;
   gap: 40px;
@@ -114,7 +115,12 @@ body {
 
 /* HERO section 1 */
 .hero {
+  /* background: var(--navy-blue);
+  height: 600px; */
+}
+.hero-wraper {
   background: var(--navy-blue);
+  height: 600px;
 }
 .hero-title {
   font-family: inherit;
@@ -124,24 +130,28 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
+  margin: auto;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* button */
 .hero-button {
-  background: var(--iris);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.hero-button {
+  min-width: 169px;
+  height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: var(--iris);
 }
 .hero-button:hover {
   color: var(--cornflower);
