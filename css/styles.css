@@ -252,7 +252,7 @@ body {
   color: var(--cloud);
 }
 .footer-text {
-  width: 264px;
+  max-width: 264px;
 }
 .footer-background {
   background: var(--navy-blue);
