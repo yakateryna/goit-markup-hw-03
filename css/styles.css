@@ -1,5 +1,6 @@
 .list {
   list-style: none;
+  display: flex;
 }
 .link {
   text-decoration: none;
@@ -142,6 +143,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background: var(--iris);
+  box-sizing: border-box;
+  padding: 10px;
 }
 .hero-button:hover {
   color: var(--cornflower);
@@ -160,6 +163,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: flex;
 }
 .second-section-text {
   font-family: inherit;
