@@ -1,6 +1,5 @@
 .list {
   list-style: none;
-  display: flex;
 }
 .link {
   text-decoration: none;
@@ -279,9 +278,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.menu-list > .item .menu-pic .menu-header {
+/* .menu-list > .item .menu-pic .menu-header {
   flex-basis: calc(100% / 3);
-}
+} */
+
 .filters-button {
   background: var(--cloud);
   border: 1px solid var(--cornflower);
