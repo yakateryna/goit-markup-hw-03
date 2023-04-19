@@ -21,8 +21,8 @@ body {
 }
 .container {
   width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .adress {
   font-style: normal;
