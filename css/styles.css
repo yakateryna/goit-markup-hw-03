@@ -170,7 +170,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  display: flex;
 }
 .second-section-text {
   font-family: inherit;
