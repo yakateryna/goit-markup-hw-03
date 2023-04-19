@@ -35,7 +35,6 @@ body {
 
 .page-header {
   display: flex;
-  height: 72px;
   align-items: center;
   justify-content: space-between;
 }
@@ -117,7 +116,8 @@ body {
 }
 .hero-wraper {
   background: var(--navy-blue);
-  padding: 188px 472px 292px 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-family: inherit;
@@ -128,7 +128,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin: auto;
-  display: flex;
 }
 
 /* button */
