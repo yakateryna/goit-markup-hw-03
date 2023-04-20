@@ -89,7 +89,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  padding-right: 76px;
+  padding-right: 156px;
+  padding-bottom: 16px;
 }
 
 .logo-link-span {
