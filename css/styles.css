@@ -207,6 +207,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding-bottom: 8px;
 }
 .second-section-text {
   font-family: inherit;
@@ -218,9 +219,7 @@ body {
 }
 
 /* section 3 */
-.third-section-wraper {
-  padding-bottom: 120px;
-}
+
 .third-section-pic {
   max-width: 100%;
   height: auto;
@@ -231,7 +230,7 @@ body {
 .third-section-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .third-section-title {
   font-family: inherit;
@@ -242,6 +241,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  padding-bottom: 72px;
 }
 
 /* section 4 */
@@ -249,7 +249,6 @@ body {
 .fourth-section-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
   padding-bottom: 120px;
 }
 .fourth-section {
@@ -272,6 +271,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .fourth-section-name {
   font-family: inherit;
@@ -281,6 +282,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding-top: 32px;
 }
 .fourth-section-profession {
   font-family: inherit;
@@ -290,6 +292,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: inherit;
+  padding-top: 8px;
 }
 
 /* footer */
