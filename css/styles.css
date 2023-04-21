@@ -301,7 +301,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-top: 32px;
 }
 .fourth-section-profession {
   font-family: inherit;
@@ -311,8 +310,12 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: inherit;
-  padding-top: 8px;
+  margin-top: 8px;
+}
+.fourth-section-text {
+  padding-top: 32px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* footer */
@@ -340,16 +343,14 @@ body {
   color: var(--cloud);
 }
 .footer-text {
-  padding-top: 16px;
-  max-width: 264px;
-}
-.footer-text {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  max-width: 264px;
+  margin-top: 17.5px;
 }
 
 /* PORTFOLIO PAGE */
