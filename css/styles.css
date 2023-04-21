@@ -337,6 +337,7 @@ body {
   color: var(--cloud);
 }
 .footer-text {
+  padding-top: 16px;
   max-width: 264px;
 }
 .footer-text {
