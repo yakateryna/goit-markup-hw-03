@@ -209,8 +209,10 @@ body {
   padding-bottom: 120px;
 }
 .second-section-list {
-  gap: 24px;
+  gap: 22px;
   display: flex;
+}
+.second-section-li {
   flex-basis: calc((100%-72) / 4);
 }
 
@@ -221,7 +223,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   max-width: 264px;
 }
 .second-section-text {
