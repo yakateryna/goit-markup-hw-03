@@ -204,12 +204,16 @@ body {
   background-color: var(--ocean);
 }
 /* section 2 */
-.second-section-list {
-  display: flex;
-  gap: 24px;
+.second-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.second-section-list {
+  gap: 24px;
+  display: flex;
+  flex-basis: calc((100%-72) / 4);
+}
+
 .second-section-title {
   font-family: inherit;
   font-weight: 500;
@@ -218,9 +222,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   padding-bottom: 8px;
+  max-width: 264px;
 }
 .second-section-text {
-  max-width: 264px;
+  /* max-width: 264px; */
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
