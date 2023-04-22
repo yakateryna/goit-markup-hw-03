@@ -412,6 +412,8 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
 .gallery-list {
