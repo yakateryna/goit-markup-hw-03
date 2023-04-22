@@ -178,8 +178,8 @@ body {
   max-width: 600px;
 }
 
-/* button */
 .hero-button {
+  border: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
