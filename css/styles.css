@@ -35,9 +35,11 @@ img {
   --white: #ffffff;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
-  /* --bg-gradient: linear-gradient
-      (to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg); */
+  --gradient: linear-gradient(
+    to right,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -91,8 +93,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: flex;
-  align-items: center;
 }
 
 .logo-link-span {
@@ -153,14 +153,14 @@ body {
 }
 
 /* HERO section 1 */
-.hero {
-}
-.hero-wraper {
+
+.hero-wraper .about-hero-container {
   background: var(--navy-blue);
-  /* background-image: var(--bg-gradient), url(../images/people-office.jpg);
+  /* background-image: var(--gradient), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
+  flex-grow: 1; */
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -173,7 +173,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   margin: auto;
-  max-width: 600px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -213,21 +213,19 @@ body {
   display: flex;
 }
 .second-section-li {
-  flex-basis: calc((100%-72) / 4);
+  flex-basis: calc((100%-72 px) / 4);
 }
 
 .second-section-title {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  max-width: 264px;
 }
 .second-section-text {
-  /* max-width: 264px; */
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
@@ -380,7 +378,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -429,7 +427,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -437,7 +435,7 @@ body {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
   margin-top: 8px;
