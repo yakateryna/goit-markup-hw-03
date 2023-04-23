@@ -313,6 +313,7 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 .fourth-section-text {
   padding-top: 32px;
@@ -336,6 +337,7 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: var(--iris);
+  display: inline-block;
 }
 /* footer */
 .footer {
